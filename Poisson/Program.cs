@@ -38,7 +38,6 @@
         Console.WriteLine($"Resultado: {resultado}");
     }
 }
-
 class Program
 {
     static void Main()
