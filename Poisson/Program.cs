@@ -1,14 +1,9 @@
 ﻿class Poisson
 {
-    long factx = 0; //Factorial de x
-    double resultado = 0; //Resultado
-    double pote = 0; //Potencia de e
-    double potlam = 0; //Potencia de lambda
+    long factx;//Factorial de x
+    double resultado, pote, potlam, lambda, p; //p probabilidad
     double e = 2.718281828; //Valor de e
-    double lambda = 0; //Lamda = n * P
-    double p = 0; //Probabilidad
-    int n = 0; //Muestra
-    int x = 0; //Exitos
+    int n, x; //n Muestra, x Exitos
     public void Datos()
     {
         Console.WriteLine("Ingresar el tamaño de la muestra");
@@ -21,7 +16,9 @@
     public void Potencia()
     {
         lambda = n * p;
+        //Potencia de e
         pote = Math.Pow(e, -lambda);
+        //Potencia de lambda
         potlam = Math.Pow(lambda, x);
     }
     public void Factorial()
