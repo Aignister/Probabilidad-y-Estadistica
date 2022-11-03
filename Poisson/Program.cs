@@ -39,10 +39,10 @@ class Program
 {
     static void Main()
     {
-        Poisson c = new Poisson();
-        c.Datos();
-        c.Potencia();
-        c.Factorial();
-        c.Resultado();
+        Poisson C = new Poisson();
+        C.Datos();
+        C.Potencia();
+        C.Factorial();
+        C.Resultado();
     }
 }

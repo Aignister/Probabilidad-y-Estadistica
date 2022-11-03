@@ -62,10 +62,10 @@ class Program
 {
     static void Main()
     {
-        Binomial c = new Binomial();
-        c.Datos();
-        c.Combinacion();
-        c.Potencia();
-        c.Resultado();
+        Binomial C = new Binomial();
+        C.Datos();
+        C.Combinacion();
+        C.Potencia();
+        C.Resultado();
     }
 }

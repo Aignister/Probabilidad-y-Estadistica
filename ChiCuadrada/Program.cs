@@ -19,8 +19,8 @@ class Program
 {
     static void Main()
     {
-        ChiCuadrada c = new ChiCuadrada();
-        c.Datos();
-        c.Cuadrada();
+        ChiCuadrada C = new ChiCuadrada();
+        C.Datos();
+        C.Cuadrada();
     }
 }

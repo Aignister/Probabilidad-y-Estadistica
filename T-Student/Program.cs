@@ -26,8 +26,8 @@ class Program
 {
     static void Main()
     {    
-        Tstudent c = new Tstudent();
-        c.Datos();
-        c.T();    
+        Tstudent C = new Tstudent();
+        C.Datos();
+        C.T();    
     }
 }
