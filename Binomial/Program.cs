@@ -39,17 +39,14 @@
 
         //Combinacion    
         comb = factn / (factx * factnx);
-        Console.WriteLine($"Resultado: {comb}");
     }
     public void Potencia()
     {
         q = 1 - p;
         //Potencia de p
         potp = Math.Pow(p, x);
-        Console.WriteLine($"Resultado: {potp}");
         //Potencia de q
         potq = Math.Pow(q, nx);
-        Console.WriteLine($"Resultado: {potq}");
     }
     public void Resultado()
     {
