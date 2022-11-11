@@ -43,6 +43,7 @@
 
         //Combinacion de r C x
         comb1 = factorialr/(factorialx*factorialrx);
+        Console.WriteLine($"Resultado: {comb1}");
     }
     public void Combinacion2()
     {
@@ -72,6 +73,7 @@
 
         //Combinacion de N-r C n-x
         comb2 = factorialNr/(factorialnx*factorialResta);
+        Console.WriteLine($"Resultado: {comb2}");
     }
     public void Combinacion3()
     {
@@ -98,7 +100,8 @@
         }
 
         //Combinacion de N C n
-        comb3 = factorialN/(factorialn*factorialNn); 
+        comb3 = factorialN/(factorialn*factorialNn);
+        Console.WriteLine($"Resultado: {comb3}"); 
     }
     public void CombinacionF()
     {
